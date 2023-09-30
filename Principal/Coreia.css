@@ -27,26 +27,26 @@ header {
 .bandeira {
     margin-right: 20px; 
   margin-bottom: 10px; 
-  width: 80px;
+  width: 100px;
   height: 80px;
-  border-radius: 50%;
+  border: solid black 2px;
   float: left;
   margin-left: 20px;
 }
 
 main {
     width: 100%;
-  background-color:	PapayaWhip;
+  background-color:	white;
   display: flex;
-        justify-content: center; /* Centraliza horizontalmente */
-        align-items: flex-start; /* Alinha os itens no topo verticalmente */
-        height: 100vh; /* Isso garante que o conteúdo ocupe a altura total da viewport */
+        justify-content: center; 
+        align-items: flex-start; 
+        height: 100vh; 
 }
     main.container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center; /* Para centralizar o conteúdo dentro dos divs */
+        text-align: center; 
         height: 100vh;
 }
 .one {

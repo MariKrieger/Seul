@@ -26,17 +26,17 @@ header {
 
 .bandeira {
     margin-right: 20px; 
-  margin-bottom: 10px; 
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  float: left;
-  margin-left: 20px;
+    margin-bottom: 10px; 
+    width: 100px;
+    height: 80px;
+    border: solid black 2px;
+    float: left;
+    margin-left: 20px;
 }
 
 main {
     width: 100%;
-  background-color:	PapayaWhip;
+  background-color:	white;
   display: flex;
   height: 100vh;
 
